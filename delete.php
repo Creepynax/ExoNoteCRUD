@@ -11,4 +11,5 @@
     $supprLigne = $bdd -> prepare('DELETE FROM Livre WHERE id = $livreID');
 
     header('Location : list.php');
+    exit();
 ?>
