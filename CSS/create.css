@@ -18,7 +18,7 @@ body{
 }
 
 #TitrePresentation{
-    background-image: url('/Images/bibliotheque.jpg');
+    background-image: url("/Images/bibliotheque.png");
     display: flex;
     text-align: center;
     justify-content: center;
