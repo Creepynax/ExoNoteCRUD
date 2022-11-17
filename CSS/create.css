@@ -1,0 +1,98 @@
+body{
+    margin:0%;
+    background-color: rgba(19,15,45,255);
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.formulaire p{
+    color: white;
+}
+
+.formulaire input{
+    margin-left: 30px;
+}
+
+#TitrePresentation{
+    background-image: url('/Images/bibliotheque.jpg');
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+#lienBiblio{
+    background-color: orange;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+}
+
+#titre {
+    background-color: rgba(39,38,69,255);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+    width: 500px;
+    height: 40px;
+    color: white;
+}
+
+#synopsis {
+    background-color: rgba(39,38,69,255);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+    width: 500px;
+    height: 40px;
+    color: white;
+}
+
+#auteur {
+    background-color: rgba(39,38,69,255);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+    width: 500px;
+    height: 40px;
+    color: white;
+}
+
+#annee {
+    background-color: rgba(39,38,69,255);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+    width: 500px;
+    height: 40px;
+    color: white;
+}
+
+#blocValider{
+    display: flex;
+    justify-content: center;
+}
+
+#blocValider input{
+    background-color: orange;
+    color: white;
+    font-size: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 2px;
+}

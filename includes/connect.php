@@ -1,5 +1,4 @@
-// Fichier relié à la base de données
-// et va être relié à toutes les pages
+<!-- Fichier relié à la base de données et va être relié à toutes les pages -->
 
 <?php 
     try{
