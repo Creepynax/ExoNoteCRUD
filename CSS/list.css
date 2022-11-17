@@ -1,0 +1,44 @@
+body{
+    margin:0%;
+    background-color: rgba(19,15,45,255);
+}
+
+#TitrePresentation{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url(/Images/bilbiotheque.jpg);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+
+#blocCreation{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#boutonCreation{
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#blocNomColonnes{
+    background-color: blue;
+    color: white;
+}
+
+#blocDonnees{
+    background-color: green;
+}
+
+#edit{
+    margin-right: 10px;
+}
